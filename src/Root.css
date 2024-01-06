@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=M+PLUS+1:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-lg: 24px;
+  --fs-xl: 34px;
+  --fs-2xl: 36px;
+  --fs-3xl: 40px;
+  --fs-4xl: 48px;
+  --fs-5xl: 64px;
+}
+
+.ff_Black_Han_Sans {
+  font-family: "Black Han Sans", sans-serif;
+}
+.ff_M_PLUS_1 {
+  font-family: "M PLUS 1", sans-serif;
+}
+.ff_poppins {
+  font-family: "Poppins", sans-serif;
+}
+.lh_100 {
+  line-height: 100%;
+}
+.text-xsm {
+  font-size: var(--fs-xsm);
+}
+.text-sm {
+  font-size: var(--fs-sm);
+}
+.text-md {
+  font-size: var(--fs-md);
+}
+.text-lg {
+  font-size: var(--fs-lg);
+}
+.text-xl {
+  font-size: var(--fs-xl);
+}
+.text-2xl {
+  font-size: var(--fs-2xl);
+}
+.text-3xl {
+  font-size: var(--fs-3xl);
+}
+.text-4xl {
+  font-size: var(--fs-4xl);
+}
+.text-5xl {
+  font-size: var(--fs-5xl);
+}

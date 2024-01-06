@@ -1,11 +1,263 @@
-@media (max-width: 768px) {
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important ;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+.mb_2 {
+  margin-bottom: -2px;
+}
+.cursor {
+  cursor: pointer;
+}
+/* {{{{{{{{{{{{{{{{{{{{{{navbar}}}}}}}}}}}}}}}}}}}}}}}}} */
+.links {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.links:hover {
+  color: #ff7d01;
+  font-size: 16px;
+  font-weight: 600;
+}
+.close-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.home-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+}
+
+.btn-border {
+  border: 1px solid white;
+  padding: 6px;
+}
+
+.connect-btn {
+  background-color: #ff7d01;
+  padding: 5px 12px;
+  border: none;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{footer}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.footer-bg {
+  background-image: url("./assets/images/png/footer-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: center;
+}
+
+.py-30 {
+  padding: 30px 0px;
+}
+
+.pb-62 {
+  padding-bottom: 62px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #91918f;
+}
+
+.pt-121 {
+  padding-top: 121px;
+}
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{team}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.team-border {
+  max-width: 930px;
+}
+
+.pb-155 {
+  padding-bottom: 155px;
+}
+
+.victor {
+  max-width: 300px;
+  max-height: 300px;
+}
+.team-card {
+  max-width: 294px;
+  border-radius: 0px 0px 0px 63px;
+  max-height: 380px;
+  border: none !important;
+  background-color: #ff7d01;
+}
+.team-card-2 {
+  max-width: 294px;
+  max-height: 380px;
+  border: none !important;
+  background-color: #ff7d01;
+}
+.team-card-3 {
+  max-width: 294px;
+  border-radius: 0px 0px 63px 0px;
+  max-height: 380px;
+  border: none !important;
+  background-color: #ff7d01;
+}
+/* {{{{{{{{{{{{{{{{{{{{{{{mint}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.mint-bg {
+  background-image: url("./assets/images/png/mint-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: center;
+}
+
+.mint-card {
+  max-width: 458px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 4px 16px 0px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18.5px);
+}
+
+.mt-39 {
+  margin-top: 39px;
+}
+.mt-21 {
+  margin-top: 21px;
+}
+
+.mt-52 {
+  margin-top: 52px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.px-30 {
+  padding: 0px 30px;
+}
+
+.pb-136 {
+  padding-bottom: 136px;
+}
+
+.mt-158 {
+  margin-top: 158px;
+}
+.pt-98 {
+  padding-top: 98px;
+}
+.mt-54 {
+  margin-top: 54px;
+}
+.mint-goat {
+  max-width: 385px;
+  max-height: 502px;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{about}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+.about-goat {
+  max-width: 433px;
+  max-height: 502px;
+}
+.max-w-560 {
+  max-width: 560px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{accordion}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.accordion_border {
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.07);
+  background-clip: content-box, border-box;
+  max-width: 670px;
+}
+/* 
+.accordion-header {
+  color: white !important;
+  background-color: red;
+} */
+
+.faq-bg {
+  background-image: url("./assets/images/png/faq-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: center;
+}
+
+.section-bg {
+  background-color: #1d1d1e;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 25px !important;
+  height: 25px !important;
+  margin-left: auto;
+  margin-right: 20px;
+  /* content: "▶"; */
+  /* background-image: url("./assets/img/png/arrow.png") !important; */
+  background-size: cover !important;
+  transform: rotate(0deg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  border-color: transparent !important;
+  box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg) !important;
+}
+
+.faq-mb {
+  padding-bottom: 160px;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+}
+@media (max-width: 992px) {
   .nav_sm {
     position: absolute;
     top: -100%;
     width: 100%;
     left: 0;
     height: 100vh;
-    background-color: #dc9393;
+    background-color: #1d1d1e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,5 +272,66 @@
 
   .overflow_hidden {
     overflow: hidden;
+  }
+
+  .mt-158 {
+    margin-top: 80px;
+  }
+
+  .pb-155 {
+    padding-bottom: 100px;
+  }
+  .mint-goat {
+    max-width: 280px;
+    max-height: 502px;
+  }
+  .pt-121 {
+    padding-top: 80px;
+  }
+  .faq-mb {
+    padding-bottom: 100px;
+  }
+  .pb-136 {
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-card {
+    max-width: 294px;
+    border-radius: 0px 0px 0px 0px;
+    max-height: 380px;
+    border: none !important;
+    background-color: #ff7d01;
+  }
+  .team-card-2 {
+    max-width: 294px;
+    max-height: 380px;
+    border: none !important;
+    background-color: #ff7d01;
+  }
+  .team-card-3 {
+    max-width: 294px;
+    border-radius: 0px 0px 0px 0px;
+    max-height: 380px;
+    border: none !important;
+    background-color: #ff7d01;
+  }
+
+  .pb-155 {
+    padding-bottom: 70px;
+  }
+  .mint-goat {
+    max-width: 230px;
+    max-height: 502px;
+  }
+  .pt-121 {
+    padding-top: 50px;
+  }
+  .faq-mb {
+    padding-bottom: 50px;
+  }
+  .pb-136 {
+    padding-bottom: 50px;
   }
 }
